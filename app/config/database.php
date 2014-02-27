@@ -48,7 +48,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'laravel_f',
+			'database'  => 'duvidas',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
