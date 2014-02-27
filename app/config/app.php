@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://laravel.io',
+	'url' => 'http://duvidas.laravel.com.br',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'America/Sao_Paulo',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -106,16 +106,14 @@ return array(
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
         'Illuminate\Workbench\WorkbenchServiceProvider',
-
 		'McCool\LaravelAutoPresenter\LaravelAutoPresenterServiceProvider',
-		// 'McCool\DatabaseBackup\ServiceProviders\LaravelServiceProvider',
-		//'Juy\Profiler\Providers\ProfilerServiceProvider',
 		'Artdarek\OAuth\OAuthServiceProvider',
-
 		'Lio\ServiceProviders\GithubServiceProvider',
 		'Lio\ServiceProviders\CommentServiceProvider',
         'Lio\ServiceProviders\MarkdownServiceProvider',
         'Lio\ServiceProviders\HashidsServiceProvider',
+        'Rocketeer\RocketeerServiceProvider',
+
 	),
 
 	/*
@@ -181,10 +179,10 @@ return array(
         'URL'             => 'Illuminate\Support\Facades\URL',
         'Validator'       => 'Illuminate\Support\Facades\Validator',
         'View'            => 'Illuminate\Support\Facades\View',
-
-		'Profiler' => 'Juy\Profiler\Facades\Profiler',
-		'OAuth'    => 'Artdarek\OAuth\Facade\OAuth',
-		'GitHub'   => 'Lio\GitHub\GitHubFacade',
+		'Profiler'        => 'Juy\Profiler\Facades\Profiler',
+		'OAuth'           => 'Artdarek\OAuth\Facade\OAuth',
+		'GitHub'          => 'Lio\GitHub\GitHubFacade',
+        'Rocketeer'       => 'Rocketeer\Facades\Rocketeer',
 	),
 
 );

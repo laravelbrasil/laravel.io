@@ -3,8 +3,79 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "390c020c9b2b148be59335c8aaeec18a",
+    "hash": "f0b74d3a1590e6a15fca5951e52066fa",
     "packages": [
+        {
+            "name": "anahkiasen/rocketeer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Anahkiasen/rocketeer.git",
+                "reference": "762de053e970aeb4ef2cd848fe73c5c116b87599"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Anahkiasen/rocketeer/zipball/762de053e970aeb4ef2cd848fe73c5c116b87599",
+                "reference": "762de053e970aeb4ef2cd848fe73c5c116b87599",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~4",
+                "illuminate/console": "~4",
+                "illuminate/container": "~4",
+                "illuminate/events": "~4",
+                "illuminate/filesystem": "~4",
+                "illuminate/log": "~4",
+                "illuminate/support": "~4",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "herrera-io/box": "dev-master",
+                "illuminate/remote": "~4",
+                "mockery/mockery": "dev-master",
+                "nesbot/carbon": "dev-master",
+                "patchwork/utf8": "dev-master",
+                "phpseclib/phpseclib": "dev-master"
+            },
+            "suggest": {
+                "anahkiasen/rocketeer-campfire": "Campfire plugin to create deployments notifications",
+                "anahkiasen/rocketeer-slack": "Slack plugin to create deployments notifications"
+            },
+            "bin": [
+                "bin/rocketeer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rocketeer\\": [
+                        "src/Rocketeer",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Fabre",
+                    "email": "ehtnam6@gmail.com"
+                }
+            ],
+            "description": "Rocketeer is a fast and simple deployer for the PHP world",
+            "keywords": [
+                "deployment",
+                "laravel",
+                "ssh"
+            ],
+            "time": "2014-02-12 12:56:44"
+        },
         {
             "name": "artdarek/oauth-4-laravel",
             "version": "dev-master",
@@ -3075,6 +3146,7 @@
         "michelf/php-markdown": 20,
         "nickcernis/html-to-markdown": 20,
         "misd/linkify": 20,
+        "anahkiasen/rocketeer": 20,
         "mockery/mockery": 20,
         "raveren/kint": 20
     },
