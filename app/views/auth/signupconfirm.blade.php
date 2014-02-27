@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="auth">
-        <h1>We&#39;re going to create an account with this information.</h1>
+        <h1>Iremos criar sua conta com essas informações.</h1>
 
         <div class="user">
             {{ Form::open() }}
@@ -14,7 +14,7 @@
                 @if(isset($githubUser['email']))
                     <h3>{{ $githubUser['email'] }}</h3>
                 @endif
-                {{ Form::submit('Create My Laravel.IO Account', ['class' => 'button']) }}
+                {{ Form::submit('Criar minha conta no Forum Laravel Brasil', ['class' => 'button']) }}
             </div>
             {{ Form::close() }}
         </div>

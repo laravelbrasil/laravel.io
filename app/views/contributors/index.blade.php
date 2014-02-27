@@ -1,5 +1,5 @@
 <div class="contributors">
-	<h1>Contributors</h1>
+	<h1>Contribuições de:</h1>
 	<ul>
 	    @foreach($contributors as $contributor)
 	        <li class="small-6 large-3 columns">
