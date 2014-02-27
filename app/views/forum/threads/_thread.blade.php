@@ -30,7 +30,7 @@
 
         @if(Auth::user())
             <li class="space"></li>
-            <li><a href="#" class="quote _quote_forum_post">Nota</a></li>
+            <li><a href="#" class="quote _quote_forum_post">Citar</a></li>
         @endif
         </ul>
     </div>

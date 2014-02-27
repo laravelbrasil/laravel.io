@@ -36,7 +36,7 @@
                 <li><a href="{{ action('ForumRepliesController@getDelete', [$reply->id]) }}">Deletar</a></li>
             @endif
                 <li class="space"></li>
-                <li><a href="#" class="quote _quote_forum_post">Nota</a></li>
+                <li><a href="#" class="quote _quote_forum_post">Citar</a></li>
             </ul>
         </div>
     @endif
