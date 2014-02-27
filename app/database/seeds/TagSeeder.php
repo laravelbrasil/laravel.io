@@ -14,49 +14,49 @@ class TagSeeder extends Seeder
     private function createTags()
     {
         $commonTags = [
-            'Instalação' => 'instalacao do framework, instalacao do pacotes, instalacao de aplicacao',
-            'Configuração' => 'framework configuration, web-server configuration, application configuration',
-            'Autenticação' => 'topics related to authentication, including user logins, oauth, etc',
-            'Segurança' => 'code safety, user roles and authorization',
-            'Pedidos' => 'information related to handling requests',
-            'Entrada' => 'handling user input',
-            'Sessão' => 'persisting data between requests using PHP or Laravel sessions',
-            'Cache' => 'performance caching or any use of Laravel\'s cache system',
-            'Batabase' => 'query-building, connections, or drivers',
-            'Eloquent' => 'Eloquent modeling, relationships, etc',
-            'Ioc' => 'binding to and resolving from the IoC container',
-            'Views' => 'topics related to the rendering of views',
-            'Blade' => 'topics related to Blade templating',
-            'Formularios' => 'topics related to forms',
-            'Validação' => 'topics related to the validation of data',
-            'Email' => 'topics related to compiling and sending email',
-            'Queues' => 'topics related to queues',
-            'Laravel.IO' => 'topics that relate to the Laravel.com.br site or community',
-            'Pacotes' => 'topics related to creating, discussing, and importing packages',
-            'Encontros' => 'topics related to community meetups or user groups',
-            'POO' => 'topics related to writing good object-oriented code',
-            'Testes' => 'topics related to automated testing',
+            'Installation' => array('Instalação', 'framework installation, package installation, application installation'),
+            'Configuration' => array('Configuração', 'framework configuration, web-server configuration, application configuration'),
+            'Authentication' => array('Autenticação', 'topics related to authentication, including user logins, oauth, etc'),
+            'Security' => array('Segurança', 'code safety, user roles and authorization'),
+            'Requests' => array('Requisições', 'information related to handling requests'),
+            'Input' => array('Entrada', 'handling user input'),
+            'Session' => array('Sessão', 'persisting data between requests using PHP or Laravel sessions'),
+            'Cache' => array('Cache', 'performance caching or any use of Laravel\'s cache system'),
+            'Database' => array('Banco de Dados', 'query-building, connections, or drivers'),
+            'Eloquent' => array('Eloquent', 'Eloquent modeling, relationships, etc'),
+            'Ioc' => array('IoC', 'binding to and resolving from the IoC container'),
+            'Views' => array('Views', 'topics related to the rendering of views'),
+            'Blade' => array('Blade', 'topics related to Blade templating'),
+            'Forms' => array('Formulários', 'topics related to forms'),
+            'Validation' => array('Validação', 'topics related to the validation of data'),
+            'Mail' => array('Email', 'topics related to compiling and sending email'),
+            'Queues' => array('Queues', 'topics related to queues'),
+            'LaravelIO' => array('Comunidade', 'topics that relate to the Laravel.io site or community'),
+            'Packages' => array('Pacotes', 'topics related to creating, discussing, and importing packages'),
+            'Meetups' => array('Encontros', 'topics related to community meetups or user groups'),
+            'OOP' => array('OOP', 'topics related to writing good object-oriented code'),
+            'Testing' => array('Testes', 'topics related to automated testing'),
         ];
 
         foreach ($commonTags as $name => $description) {
             Tag::create([
                 'name' => $name,
-                'slug' => $name,
-                'description' => $description,
+                'slug' => $description[0],
+                'description' => $description[1],
                 'articles' => 1,
                 'forum' => 1,
             ]);
         }
 
         $articleTags = [
-            'Noticias' => 'information about an occurance',
+            'News' => array("Noticias", 'information about an occurance'),
         ];
 
         foreach ($articleTags as $name => $description) {
             Tag::create([
                 'name' => $name,
-                'slug' => $name,
-                'description' => $description,
+                'slug' => $description[0],
+                'description' => $description[1],
                 'articles' => 1,
                 'forum' => 0,
             ]);
