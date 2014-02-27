@@ -16,7 +16,7 @@
             </div>
 
             <div class="form-row">
-                {{ Form::button('Delete', ['type' => 'submit', 'class' => 'button']) }}
+                {{ Form::button('Apagar', ['type' => 'submit', 'class' => 'button']) }}
             </div>
     </div>
 @stop

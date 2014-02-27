@@ -10,7 +10,7 @@
             @endforeach
         </ul>
         <div class="_tag_description_container">
-            <strong>Tags descrevem esse post contendo...</strong>
+            <strong>as tags selecionadas irão relacionar o tópico com...</strong>
             <ul class="_tag_descriptions">
             </ul>
         </div>

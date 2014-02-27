@@ -30,7 +30,7 @@
         @include('forum.replies._create')
     @else
         <div class="login-cta">
-            <p>Deseja responder a esse tópico?</p> <a class="button" href="{{ action('AuthController@getLogin') }}">Faça login com o github.</a>
+            <p>Deseja responder a esse tópico?</p> <a class="button" href="{{ action('AuthController@getLogin') }}">Faça login com GitHub.</a>
         </div>
     @endif
 @stop

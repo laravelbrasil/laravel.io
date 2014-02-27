@@ -14,28 +14,28 @@ class TagSeeder extends Seeder
     private function createTags()
     {
         $commonTags = [
-            'Installation' => array('Instalação', 'framework installation, package installation, application installation'),
-            'Configuration' => array('Configuração', 'framework configuration, web-server configuration, application configuration'),
-            'Authentication' => array('Autenticação', 'topics related to authentication, including user logins, oauth, etc'),
-            'Security' => array('Segurança', 'code safety, user roles and authorization'),
-            'Requests' => array('Requisições', 'information related to handling requests'),
-            'Input' => array('Entrada', 'handling user input'),
-            'Session' => array('Sessão', 'persisting data between requests using PHP or Laravel sessions'),
-            'Cache' => array('Cache', 'performance caching or any use of Laravel\'s cache system'),
-            'Database' => array('Banco de Dados', 'query-building, connections, or drivers'),
-            'Eloquent' => array('Eloquent', 'Eloquent modeling, relationships, etc'),
-            'Ioc' => array('IoC', 'binding to and resolving from the IoC container'),
-            'Views' => array('Views', 'topics related to the rendering of views'),
-            'Blade' => array('Blade', 'topics related to Blade templating'),
-            'Forms' => array('Formulários', 'topics related to forms'),
-            'Validation' => array('Validação', 'topics related to the validation of data'),
-            'Mail' => array('Email', 'topics related to compiling and sending email'),
-            'Queues' => array('Queues', 'topics related to queues'),
-            'LaravelIO' => array('Comunidade', 'topics that relate to the Laravel.io site or community'),
-            'Packages' => array('Pacotes', 'topics related to creating, discussing, and importing packages'),
-            'Meetups' => array('Encontros', 'topics related to community meetups or user groups'),
-            'OOP' => array('OOP', 'topics related to writing good object-oriented code'),
-            'Testing' => array('Testes', 'topics related to automated testing'),
+            'Installation' => array('Instalação', 'instalação do Framework, instalação de pacotes'),
+            'Configuration' => array('Configuração', 'configuração do Pacote, Configuração de Servidores WEB, Configuração da Aplicação'),
+            'Authentication' => array('Autenticação', 'tópicos relacionados a autenticação, incluindo login, oauth, etc'),
+            'Security' => array('Segurança', 'segurança de código, papéis de usuário and autorização'),
+            'Requests' => array('Requisições', 'tópicos relacionadas a manusear requisições'),
+            'Input' => array('Entrada', 'manipupação da entrada do usuário'),
+            'Session' => array('Sessão', 'persistindo dados entre requisições, usando PHP ou Laravel'),
+            'Cache' => array('Cache', 'performance do cache ou qualquer uso do sistema de cache do Larvel'),
+            'Database' => array('Banco de Dados', 'construção de queries, conexões ou drivers'),
+            'Eloquent' => array('Eloquent', 'Models do Eloquent, relacionamentos, etc'),
+            'Ioc' => array('IoC', 'resolvendo e atribuindo no IoC container'),
+            'Views' => array('Views', 'tópicos relacionados a renderização de views'),
+            'Blade' => array('Blade', 'tópicos relacionados ao sistema de templates Blade'),
+            'Forms' => array('Formulários', 'tópicos relacionados a formulários'),
+            'Validation' => array('Validação', 'tópicos relacionados a validação de dados'),
+            'Mail' => array('Email', 'tópicoss relacionados a compilação e envio de emails'),
+            'Queues' => array('Queues', 'tópicos relacionados a Queues (filas)'),
+            'LaravelIO' => array('Comunidade', 'tópicos relacionados ao uso do Fórum, ou ao site laravel.com.br'),
+            'Packages' => array('Pacotes', 'tópicos relacionados a criação, discussão e importação de pacotes'),
+            'Meetups' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
+            'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
+            'Testing' => array('Testes', 'tópicos relacionados a testes automatizados'),
         ];
 
         foreach ($commonTags as $name => $description) {
@@ -49,7 +49,7 @@ class TagSeeder extends Seeder
         }
 
         $articleTags = [
-            'News' => array("Noticias", 'information about an occurance'),
+            'News' => array("Noticias", 'informações sobre uma ocorrência'),
         ];
 
         foreach ($articleTags as $name => $description) {

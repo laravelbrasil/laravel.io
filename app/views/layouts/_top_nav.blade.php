@@ -16,7 +16,7 @@
                 <a href="{{ action('PastesController@getCreate') }}">Pastebin</a>
             </li>
             <li>
-                <a target="_blank" href="http://forumsarchive.laravel.io/">Forum Antigo (Arquivado)</a>
+                <a target="_blank" href="http://forum.laravel.com.br/">Forum Antigo (Arquivado)</a>
             </li>
         </ul>
     </nav>

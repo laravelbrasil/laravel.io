@@ -44,7 +44,7 @@
                         {{ Form::text('query', null, ['placeholder' => 'pesquise no forum'] )}}
                     </div>
                     <div class="form-row">
-                    {{ Form::button('Go Find Stuff!', ['type' => 'submit', 'class' => 'button']) }}
+                    {{ Form::button('Pesquisar!', ['type' => 'submit', 'class' => 'button']) }}
                     </div>
                 {{ Form::close() }}
             </div>

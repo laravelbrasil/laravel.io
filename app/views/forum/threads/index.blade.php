@@ -18,7 +18,7 @@
         </div>
 
         <div class="filter">
-            <p>Mostrando:</p>
+            <p>Mostrar:</p>
             <ul>
                 <li><a href="{{ action('ForumThreadsController@getIndex', '') . $queryString }}" class="{{ Request::path() == 'forum' ? 'current' : '' }}">Todos</a></li>
                 <li><a href="{{ action('ForumThreadsController@getIndex', 'open') . $queryString }}" class="{{ Request::is('forum/open') ? 'current' : '' }}">Aberto</a></li>

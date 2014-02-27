@@ -2,10 +2,10 @@
     <a name="reply_form"></a>
     {{ Form::open(['data-persist' => 'garlic', 'data-expires' => '300']) }}
         <div class="form-row">
-            <label class="field-title">Reply</label>
+            <label class="field-title">Responder</label>
             {{ Form::textarea("body", null, ['class' => '_tab_indent _reply_form']) }}
             {{ $errors->first('body', '<small class="error">:message</small>') }}
-            <small><a href="http://laravel.io/forum/01-31-2014-how-to-mark-up-forum-posts" target="_BLANK">Learn how to mark up your post here.</a></small>
+            <small><a href="http://laravel.io/forum/01-31-2014-how-to-mark-up-forum-posts" target="_BLANK">Aprenda a usar as marcações.</a></small>
         </div>
 
         <div class="form-row">

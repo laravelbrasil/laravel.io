@@ -2,7 +2,7 @@
     <div class="description">
         <h1>Articles</h1>
         <p class="lead">
-            Find articles that cover a wide-array of Laravel and web-development related topics written by community members. <a href="{{ action('ArticlesController@getCompose') }}">Write your own</a> to help improve the resource.
+            Descubra artigos que cobrem uma vasta gama de tópicos relacionados ao Laravel e Desenvolvimento WEB, escritos pela comunidade.<a href="{{ action('ArticlesController@getCompose') }}">Escreva um artigo</a> e ajude a melhorar nossa base de conhecimento.
         </p>
     </div>
     <div class="posts">
@@ -10,7 +10,7 @@
             @include('articles._small_summary')
         @endforeach
         <p>
-            <a href="{{ action('ArticlesController@getIndex') }}">See all articles</a>
+            <a href="{{ action('ArticlesController@getIndex') }}">Ver todos os artigos</a>
         </p>
     </div>
 </section>
@@ -19,7 +19,7 @@
     <div class="description">
         <h1>Forum Threads</h1>
         <p class="lead">
-            Discuss development related topics, ask for, and provide help.
+            Discutir tópicos relacionados a Desenvolvimento WEB, fazer uma pergunta ou ajudar a comunidade.
         </p>
     </div>
     <div class="posts">
@@ -29,11 +29,11 @@
     </div>
 </section>
 
-<secion class="hero-section darker">
+<section class="hero-section darker">
     <div class="description">
         <h1>Help Cases</h1>
         <p class="lead">
-            We have no idea what will go here.
+            Nós não temos ideia do que colocar aqui.
         </p>
     </div>
     <div class="posts">

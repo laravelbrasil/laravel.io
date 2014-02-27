@@ -12,7 +12,7 @@
         <section class="padding">
             <div class="form-row">
                 {{ Form::label('subject', 'Assunto', ['class' => 'field-title']) }}
-                {{ Form::text('subject', null, ['placeholder' => 'Subject']) }}
+                {{ Form::text('subject', null, ['placeholder' => 'Assunto']) }}
                 {{ $errors->first('subject', '<small class="error">:message</small>') }}
             </div>
 
@@ -20,7 +20,7 @@
                 {{ Form::label('body', 'Tópico', ['class' => 'field-title']) }}
                 {{ Form::textarea("body", null) }}
                 {{ $errors->first('body', '<small class="error">:message</small>') }}
-                <small><a href="http://laravel.io/forum/01-31-2014-how-to-mark-up-forum-posts" target="_BLANK">Aprenda a usar as marcações aqui.</a></small>
+                <small><a href="http://laravel.io/forum/01-31-2014-how-to-mark-up-forum-posts" target="_BLANK">Aprenda a usar as marcações.</a></small>
             </div>
 
             <div class="form-row">
@@ -72,7 +72,7 @@
             </div>
 
             <div class="form-row">
-                {{ Form::button('Salvar', ['type' => 'submit', 'class' => 'button']) }}
+                {{ Form::button('Enviar', ['type' => 'submit', 'class' => 'button']) }}
             </div>
         </section>
         {{ Form::close() }}

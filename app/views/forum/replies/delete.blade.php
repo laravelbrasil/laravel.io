@@ -6,17 +6,17 @@
 
 @section('content')
 <div class="header">
-    <h1>Delete Your Reply?</h1>
+    <h1>Deletar sua Resposta?</h1>
 </div>
 
     <div class="reply-form">
         {{ Form::model($reply->resource) }}
             <div class="form-row">
-                <label class="field-title">Are you sure that you want to delete this reply?</label>
+                <label class="field-title">Tem certeza que deseja deletar sua resposta?</label>
             </div>
 
             <div class="form-row">
-                {{ Form::button('Delete', ['type' => 'submit', 'class' => 'button']) }}
+                {{ Form::button('Deletar', ['type' => 'submit', 'class' => 'button']) }}
             </div>
     </div>
 @stop
