@@ -9,7 +9,7 @@
         </div>
 
         <div class="form-row">
-            {{ Form::button('Reply', ['type' => 'submit', 'class' => 'button']) }}
+            {{ Form::button('Responder', ['type' => 'submit', 'class' => 'button']) }}
         </div>
     {{ Form::close() }}
 </div>

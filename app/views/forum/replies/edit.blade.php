@@ -12,7 +12,7 @@
     <div class="reply-form">
         {{ Form::model($reply->resource) }}
             <div class="form-row">
-                <label class="field-title">Reply</label>
+                <label class="field-title">Responder</label>
                 {{ Form::textarea("body", null, ['class' => '_tab_indent']) }}
                 {{ $errors->first('body', '<small class="error">:message</small>') }}
                 <small><a href="http://laravel.io/forum/01-31-2014-how-to-mark-up-forum-posts" target="_BLANK">Aprenda a usar as Marcações.</a></small>
