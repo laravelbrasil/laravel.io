@@ -4,7 +4,7 @@ use Lio\Accounts\User;
 use Lio\Accounts\UserRepository;
 use Lio\Accounts\RoleRepository;
 //use BaseController;
-use Input;
+//use Input;
 
 class AdminUsersController extends BaseController
 {
