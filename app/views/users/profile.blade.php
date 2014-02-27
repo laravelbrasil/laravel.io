@@ -17,7 +17,7 @@
                 <div class="info">
                     <h3><a href="{{ $thread->url }}">{{ $thread->subject }}</a></h3>
                     <ul class="meta">
-                        <li>postado{{ $thread->created_ago }}</li>
+                        <li>postado {{ $thread->created_ago }}</li>
                         <li>por <a href="{{ $thread->author->profileUrl }}">{{ $thread->author->name }}</a></li>
                     </ul>
                 </div>
