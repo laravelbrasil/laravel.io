@@ -37,6 +37,7 @@ class TagSeeder extends Seeder
             'Meetups' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
             'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
             'Testing' => array('Testes', 'tópicos relacionados a testes automatizados'),
+
             */
             'Instalacao' => array('Instalação', 'instalação do Framework, instalação de pacotes'),
             'Configuracao' => array('Configuração', 'configuração do Pacote, Configuração de Servidores WEB, Configuração da Aplicação'),
@@ -60,6 +61,7 @@ class TagSeeder extends Seeder
             'Encontros' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
             'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
             'Testes' => array('Testes', 'tópicos relacionados a testes automatizados'),
+            'Vagas'  => array('Vagas', 'Vagas de emprego relacionados a Laravel ou PHP')
 
         ];
 

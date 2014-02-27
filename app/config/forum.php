@@ -34,6 +34,10 @@ return [
         ],
         'Comunidade' => [
             'tags'  => 'comunidade',
+        ],
+        'Vagas' => [
+            'tags' => 'vagas'
         ]
+
     ],
 ];
