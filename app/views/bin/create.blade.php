@@ -7,11 +7,11 @@
         @include('bin._logo')
         <div class="options">
             <ul>
-                <li><input type="submit" value="Save (cmd+s)" class="button"></li>
-                <li><input type="reset" value="Clear" class="button"></li>
+                <li><input type="submit" value="Salvar (cmd+s)" class="button"></li>
+                <li><input type="reset" value="Limpar" class="button"></li>
             </ul>
         </div>
-        <p>Please note that all pasted data is publicly available.</p>
+        <p>Atenção: Todo o código postado aqui será publico.</p>
     </div>
 
     @include('bin._editor')

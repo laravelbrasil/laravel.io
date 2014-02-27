@@ -8,9 +8,9 @@
         @include('bin._logo')
         <div class="options">
             <ul>
-                <li><input type="submit" value="Save" class="button"></li>
-                <li><input type="reset" value="Clear" class="button"></li>
-                <li><a href="{{ $paste->showUrl }}" class="button back"><i class="fa fa-arrow-circle-o-left"></i> Back</a></li>
+                <li><input type="submit" value="Salvar" class="button"></li>
+                <li><input type="reset" value="Limpar" class="button"></li>
+                <li><a href="{{ $paste->showUrl }}" class="button back"><i class="fa fa-arrow-circle-o-left"></i> Voltar</a></li>
             </ul>
         </div>
     </div>
