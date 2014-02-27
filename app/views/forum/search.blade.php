@@ -8,9 +8,9 @@
     <section class="forum">
         <div class="header">
             @if($query)
-                <h1>Forum Search results for "{{ $query }}"</h1>
+                <h1>Resultados da busca por "{{ $query }}"</h1>
             @else
-                <h1>Forum Search</h1>
+                <h1>Busca no Forum</h1>
             @endif
         </div>
 
@@ -28,7 +28,7 @@
                 @else
                     {{-- If no comments are found display a message --}}
                     <div class="empty-state">
-                        <h3>No results found on the forum for "{{ $query }}"</h3>
+                        <h3>Nenhum resultado encontrado para "{{ $query }}"</h3>
                     </div>
                 @endif
             </div>
@@ -40,8 +40,8 @@
             <div class="padding">
                 {{ Form::open(['action' => 'ForumThreadsController@getSearch', 'method' => 'GET']) }}
                     <div class="form-row">
-                        {{ Form::label('query', 'Search the laravel.io forum', ['class' => 'field-title']) }}
-                        {{ Form::text('query', null, ['placeholder' => 'search the laravel.io forum'] )}}
+                        {{ Form::label('query', 'pesquise no forum', ['class' => 'field-title']) }}
+                        {{ Form::text('query', null, ['placeholder' => 'pesquise no forum'] )}}
                     </div>
                     <div class="form-row">
                     {{ Form::button('Go Find Stuff!', ['type' => 'submit', 'class' => 'button']) }}

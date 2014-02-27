@@ -1,3 +1,3 @@
 <footer>
-    Proudly hosted by: <a href="http://fortrabbit.com" class="fortrabbit home"><em>•</em> fortrabbit</a>
+    <a href="http://laravel.io/forum">Forum original</a> <em>•</em>
 </footer>

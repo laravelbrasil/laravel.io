@@ -6,13 +6,13 @@
 
 @section('content')
 <div class="header">
-    <h1>Delete Your Thread?</h1>
+    <h1>Deletar seu tópico?</h1>
 </div>
 
     <div class="reply-form">
         {{ Form::model($thread->resource) }}
             <div class="form-row">
-                <label class="field-title">Are you sure that you want to delete this thread?</label>
+                <label class="field-title">Tem certeza que deseja deletar seu tópico?</label>
             </div>
 
             <div class="form-row">

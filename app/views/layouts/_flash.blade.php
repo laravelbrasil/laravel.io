@@ -14,7 +14,7 @@
     {{-- Laravel Form Errors --}}
     @if ($errors->count() > 0)
         <div data-alert class="alert-box alert">
-            Please review the form below and fix errors before submitting again.
+            Por Favor revise o formulário abaixo, corrija os erros e envie novamente.
         </div>
     @endif
 </section>
