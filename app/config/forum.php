@@ -11,13 +11,13 @@ return [
         'Autenticação / Segurança' => [
             'tags' => 'authentication,security'
         ],
-        'Pedidos / Entrada / Respostas' => [
+        'Requisições / Entrada / Respostas' => [
             'tags' => 'requests,input'
         ],
         'Sessão / Cache' => [
             'tags' => 'session,cache'
         ],
-        'Database / Eloquent' => [
+        'Banco de Dados / Eloquent' => [
             'tags' => 'database,eloquent'
         ],
         'Pacotes / IoC ' => [
@@ -32,7 +32,7 @@ return [
         'Encontros' => [
             'tags' => 'meetups'
         ],
-        'Comunidade Laravel.com.br' => [
+        'Comunidade' => [
             'tags'  => 'laravelio',
         ]
     ],
