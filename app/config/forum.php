@@ -2,37 +2,37 @@
 
 return [
     'sections' => [
-        'All Threads' => [
+        'Todos os Tópicos' => [
             'tags' => '',
         ],
-        'Installation / Configuration' => [
+        'Instalação / Configuração' => [
             'tags' => 'installation,configuration'
         ],
-        'Authentication / Security' => [
+        'Autenticação / Segurança' => [
             'tags' => 'authentication,security'
         ],
-        'Requests / Input / Responses' => [
+        'Pedidos / Entrada / Respostas' => [
             'tags' => 'requests,input'
         ],
-        'Session / Cache' => [
+        'Sessão / Cache' => [
             'tags' => 'session,cache'
         ],
         'Database / Eloquent' => [
             'tags' => 'database,eloquent'
         ],
-        'Packages / IoC ' => [
+        'Pacotes / IoC ' => [
             'tags' => 'packages,ioc'
         ],
-        'Views / Blade / Forms' => [
+        'Views / Blade / Formulários' => [
             'tags'  => 'views,blade,forms'
         ],
-        'Mail / Queues' => [
+        'Email / Queues' => [
             'tags' => 'mail,queues'
         ],
-        'Local Community Meetups' => [
+        'Encontros' => [
             'tags' => 'meetups'
         ],
-        'Laravel.io Site and Community' => [
+        'Comunidade Laravel.com.br' => [
             'tags'  => 'laravelio',
         ]
     ],

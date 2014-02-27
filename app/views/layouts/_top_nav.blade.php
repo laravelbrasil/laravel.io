@@ -10,22 +10,22 @@
                 <a class="{{ Request::is('forum*') ? 'active' : null }}" href="{{ action('ForumThreadsController@getIndex') }}">Forum</a>
             </li>
             <li>
-                <a class="{{ Request::is('chat*') ? 'active' : null }}" href="{{ action('ChatController@getIndex') }}">Live Chat</a>
+                <a class="{{ Request::is('chat*') ? 'active' : null }}" href="{{ action('ChatController@getIndex') }}">Chat</a>
             </li>
             <li>
                 <a href="{{ action('PastesController@getCreate') }}">Pastebin</a>
             </li>
             <li>
-                <a target="_blank" href="http://forumsarchive.laravel.io/">Old Forum Archive</a>
+                <a target="_blank" href="http://forumsarchive.laravel.io/">Forum Antigo (Arquivado)</a>
             </li>
         </ul>
     </nav>
     <ul class="user-navigation">
         @if(Auth::check())
             {{-- <li><a href="{{ action('DashboardController@getIndex') }}">{{ $currentUser->name }}<span class="dashboard-word">'s Dashboard</span></a></li> --}}
-            <li><a class="button" href="{{ action('AuthController@getLogout') }}">Logout</a></li>
+            <li><a class="button" href="{{ action('AuthController@getLogout') }}">Sair</a></li>
         @else
-            <li><a class="button" href="{{ action('AuthController@getLogin') }}">Login with GitHub</a></li>
+            <li><a class="button" href="{{ action('AuthController@getLogin') }}">Login com GitHub</a></li>
         @endif
     </ul>
 </header>
