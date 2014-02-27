@@ -22,7 +22,9 @@
 	// Tasks to execute after the core Rocketeer Tasks
 	'after' => array(
 		'setup'   => array(),
-		'deploy'  => array(),
+		'deploy'  => array(
+            'cd public && compass compile'
+        ),
 		'cleanup' => array(),
 	),
 
