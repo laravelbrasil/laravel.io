@@ -8,7 +8,7 @@
 <section class="user-content">
 @if($threads->count() > 0)
     <div class="header">
-        <h1>Latest Threads by {{ $user->name }}</h1>
+        <h1>Últimos Tópicos por {{ $user->name }}</h1>
     </div>
     <div class="threads">
         @foreach($threads as $thread)
@@ -17,8 +17,8 @@
                 <div class="info">
                     <h3><a href="{{ $thread->url }}">{{ $thread->subject }}</a></h3>
                     <ul class="meta">
-                        <li>posted {{ $thread->created_ago }}</li>
-                        <li>by <a href="{{ $thread->author->profileUrl }}">{{ $thread->author->name }}</a></li>
+                        <li>postado{{ $thread->created_ago }}</li>
+                        <li>por <a href="{{ $thread->author->profileUrl }}">{{ $thread->author->name }}</a></li>
                     </ul>
                 </div>
             </div>
