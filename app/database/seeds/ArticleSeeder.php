@@ -6,9 +6,9 @@ class ArticleSeeder extends Seeder
 {
     public function run()
     {
-        //if (Article::count() == 0) {
-        //    $this->createArticles();
-        //}
+        if (Article::count() == 0) {
+            $this->createArticles();
+        }
     }
 
     private function createArticles()
