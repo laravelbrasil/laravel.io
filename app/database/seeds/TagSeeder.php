@@ -14,6 +14,7 @@ class TagSeeder extends Seeder
     private function createTags()
     {
         $commonTags = [
+            /*
             'Installation' => array('Instalação', 'instalação do Framework, instalação de pacotes'),
             'Configuration' => array('Configuração', 'configuração do Pacote, Configuração de Servidores WEB, Configuração da Aplicação'),
             'Authentication' => array('Autenticação', 'tópicos relacionados a autenticação, incluindo login, oauth, etc'),
@@ -36,6 +37,30 @@ class TagSeeder extends Seeder
             'Meetups' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
             'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
             'Testing' => array('Testes', 'tópicos relacionados a testes automatizados'),
+            */
+            'Instalacao' => array('Instalação', 'instalação do Framework, instalação de pacotes'),
+            'Configuracao' => array('Configuração', 'configuração do Pacote, Configuração de Servidores WEB, Configuração da Aplicação'),
+            'Autenticacao' => array('Autenticação', 'tópicos relacionados a autenticação, incluindo login, oauth, etc'),
+            'Seguranca' => array('Segurança', 'segurança de código, papéis de usuário and autorização'),
+            'Requisicoes' => array('Requisições', 'tópicos relacionadas a manusear requisições'),
+            'Entrada' => array('Entrada', 'manipupação da entrada do usuário'),
+            'Sessao' => array('Sessão', 'persistindo dados entre requisições, usando PHP ou Laravel'),
+            'Cache' => array('Cache', 'performance do cache ou qualquer uso do sistema de cache do Larvel'),
+            'Database' => array('Banco de Dados', 'construção de queries, conexões ou drivers'),
+            'Eloquent' => array('Eloquent', 'Models do Eloquent, relacionamentos, etc'),
+            'Ioc' => array('IoC', 'resolvendo e atribuindo no IoC container'),
+            'Views' => array('Views', 'tópicos relacionados a renderização de views'),
+            'Blade' => array('Blade', 'tópicos relacionados ao sistema de templates Blade'),
+            'Formularios' => array('Formulários', 'tópicos relacionados a formulários'),
+            'Validacao' => array('Validação', 'tópicos relacionados a validação de dados'),
+            'Email' => array('Email', 'tópicoss relacionados a compilação e envio de emails'),
+            'Queues' => array('Queues', 'tópicos relacionados a Queues (filas)'),
+            'Comunidade' => array('Comunidade', 'tópicos relacionados ao uso do Fórum, ou ao site laravel.com.br'),
+            'Pacotes' => array('Pacotes', 'tópicos relacionados a criação, discussão e importação de pacotes'),
+            'Encontros' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
+            'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
+            'Testes' => array('Testes', 'tópicos relacionados a testes automatizados'),
+
         ];
 
         foreach ($commonTags as $name => $description) {

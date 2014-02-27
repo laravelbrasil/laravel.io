@@ -6,34 +6,34 @@ return [
             'tags' => '',
         ],
         'Instalação / Configuração' => [
-            'tags' => 'installation,configuration'
+            'tags' => 'instalacao,configuracao'
         ],
         'Autenticação / Segurança' => [
-            'tags' => 'authentication,security'
+            'tags' => 'autenticacao,seguranca'
         ],
         'Requisições / Entrada / Respostas' => [
-            'tags' => 'requests,input'
+            'tags' => 'requisicoes,entrada'
         ],
         'Sessão / Cache' => [
-            'tags' => 'session,cache'
+            'tags' => 'sessao,cache'
         ],
         'Banco de Dados / Eloquent' => [
             'tags' => 'database,eloquent'
         ],
         'Pacotes / IoC ' => [
-            'tags' => 'packages,ioc'
+            'tags' => 'pacotes,ioc'
         ],
         'Views / Blade / Formulários' => [
-            'tags'  => 'views,blade,forms'
+            'tags'  => 'views,blade,formularios'
         ],
         'Email / Queues' => [
-            'tags' => 'mail,queues'
+            'tags' => 'email,queues'
         ],
         'Encontros' => [
-            'tags' => 'meetups'
+            'tags' => 'encontros'
         ],
         'Comunidade' => [
-            'tags'  => 'laravelio',
+            'tags'  => 'comunidade',
         ]
     ],
 ];
