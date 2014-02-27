@@ -27,8 +27,8 @@
 	'shared' => array(
 		'{path.storage}/logs',
 		'{path.storage}/sessions',
-        '{path.config}/packages/artdarek/oauth-4-laravel/config.php',
-        '{path.config}/database.php'
+        'app/config/packages/artdarek/oauth-4-laravel/config.php',
+        'app/config/database.php'
 	),
 
 	'permissions' => array(
