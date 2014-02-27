@@ -8,7 +8,7 @@
 <section class="user-content">
 @if($threads->count() > 0)
     <div class="header">
-        <h1>Últimos Tópicos por {{ $user->name }}</h1>
+        <h1>Últimas Interações de {{ $user->name }}</h1>
     </div>
     <div class="threads">
         @foreach($threads as $thread)
@@ -30,17 +30,17 @@
 
 @if($replies->count())
     <div class="header double">
-        <h1>Latest Replies by {{ $user->name }}</h1>
+        <h1>Últimas Interações de {{ $user->name }}</h1>
     </div>
     <div class="threads">
         @foreach($replies as $reply)
             <div class="thread-summary">
                 {{ $reply->author->thumbnail }}
                 <div class="info">
-                    <h3><a href="{{ $reply->url }}">In reply to: {{ $reply->thread->subject }}</a></h3>
+                    <h3><a href="{{ $reply->url }}">Em resposta a: {{ $reply->thread->subject }}</a></h3>
                     <ul class="meta">
-                        <li>posted {{ $reply->created_ago }}</li>
-                        <li>by <a href="{{ $reply->author->profileUrl }}">{{ $reply->author->name }}</a></li>
+                        <li>postado {{ $reply->created_ago }}</li>
+                        <li>por <a href="{{ $reply->author->profileUrl }}">{{ $reply->author->name }}</a></li>
                     </ul>
                 </div>
             </div>
