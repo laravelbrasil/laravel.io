@@ -22,7 +22,7 @@ class Thread extends Entity
     protected $laravelVersions = [
         4 => "Laravel 4.x",
         3 => "Laravel 3.x",
-        0 => "Doesn't Matter",
+        0 => "Não faz diferença",
     ];
 
     public function author()

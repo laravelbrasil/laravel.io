@@ -18,7 +18,7 @@ class Comment extends Entity
     ];
 
     protected $laravelVersions = [
-        0 => "Doesn't Matter",
+        0 => "Não faz diferença",
         3 => "Laravel 3.x",
         4 => "Laravel 4.x",
     ];
