@@ -61,7 +61,7 @@ class TagSeeder extends Seeder
             'Encontros' => array('Encontros', 'tópicos relacionados a encontros e hangouts da comunidade'),
             'OOP' => array('OOP', 'tópicos relacionados a boas práticas de orientação a objetos'),
             'Testes' => array('Testes', 'tópicos relacionados a testes automatizados'),
-            'Vagas'  => array('Vagas', 'Vagas de emprego relacionados a Laravel ou PHP')
+            'Vagas'  => array('Vagas', 'Vagas de emprego relacionadas a Laravel ou PHP')
 
         ];
 
