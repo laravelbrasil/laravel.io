@@ -40,8 +40,8 @@ class TagSeeder extends Seeder
 
         foreach ($commonTags as $name => $description) {
             Tag::create([
-                'name' => $name,
-                'slug' => $description[0],
+                'name' => $description[0],
+                'slug' => $name,
                 'description' => $description[1],
                 'articles' => 1,
                 'forum' => 1,
@@ -54,8 +54,8 @@ class TagSeeder extends Seeder
 
         foreach ($articleTags as $name => $description) {
             Tag::create([
-                'name' => $name,
-                'slug' => $description[0],
+                'name' => $description[0],
+                'slug' => $name,
                 'description' => $description[1],
                 'articles' => 1,
                 'forum' => 0,
