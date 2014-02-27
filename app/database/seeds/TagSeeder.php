@@ -31,7 +31,7 @@ class TagSeeder extends Seeder
             'Validação' => 'topics related to the validation of data',
             'Email' => 'topics related to compiling and sending email',
             'Queues' => 'topics related to queues',
-            'Laravel.com.br' => 'topics that relate to the Laravel.com.br site or community',
+            'Laravel.IO' => 'topics that relate to the Laravel.com.br site or community',
             'Pacotes' => 'topics related to creating, discussing, and importing packages',
             'Encontros' => 'topics related to community meetups or user groups',
             'POO' => 'topics related to writing good object-oriented code',
