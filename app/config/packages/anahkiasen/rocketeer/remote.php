@@ -26,9 +26,7 @@
 	// user uploaded data, file-based databases, etc.
 	'shared' => array(
 		'{path.storage}/logs',
-		'{path.storage}/sessions',
-        'app/config/packages/artdarek/oauth-4-laravel/config.php',
-        'app/config/database.php'
+		'{path.storage}/sessions'
 	),
 
 	'permissions' => array(
