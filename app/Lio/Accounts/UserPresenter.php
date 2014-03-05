@@ -30,7 +30,7 @@ class UserPresenter extends BasePresenter
     public function thumbnail()
     {
         if (substr($this->image_url, 0, 10) == 'https://gr') {
-            return HTML::image($this->image_url, $this->resource->name);
+            return HTML::image($this->image_url . '&s=50', $this->resource->name);
         } else {
             return HTML::image($this->image_url . "?size=50", $this->resource->name);
         }
@@ -40,7 +40,7 @@ class UserPresenter extends BasePresenter
     public function imageMedium()
     {
         if (substr($this->image_url, 0, 10) == 'https://gr') {
-            return HTML::image($this->image_url, $this->resource->name);
+            return HTML::image($this->image_url . '&s=300', $this->resource->name);
         } else {
             return HTML::image($this->image_url . "?size=300", $this->resource->name);
         }
