@@ -18,6 +18,9 @@
             <li>
                 <a target="_blank" href="http://forum.laravel.com.br/">Forum Antigo (Arquivado)</a>
             </li>
+            <li>
+                <a target="_blank" href="http://www.laravel.com.br/">Laravel.com.br</a>
+            </li>
         </ul>
     </nav>
     <ul class="user-navigation">
