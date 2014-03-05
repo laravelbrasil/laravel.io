@@ -22,7 +22,7 @@
     </div>
 
     <span class="markdown">
-        {{ $reply->body }}
+        {{{ $reply->body }}}
     </span>
 
     <span style="display:none;" class="_author_name">{{ $reply->author->name }}</span>
