@@ -48,9 +48,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => apache_getenv('db_db'),
-			'username'  => apache_getenv('db_user'),
-			'password'  => apache_getenv('db_pass'),
+			'database'  => getenv('db_db'),
+			'username'  => getenv('db_user'),
+			'password'  => getenv('db_pass'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
