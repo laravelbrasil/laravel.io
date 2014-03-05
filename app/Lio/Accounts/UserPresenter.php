@@ -29,11 +29,20 @@ class UserPresenter extends BasePresenter
 
     public function thumbnail()
     {
-        return HTML::image($this->image_url . "?size=50", $this->resource->name);
+        if (substr($this->image, 0, 10) == 'https://gr') {
+            return HTML::image($this->image_url . "&size=50", $this->resource->name);
+        } else {
+            return HTML::image($this->image_url . "?size=50", $this->resource->name);
+        }
+
     }
 
     public function imageMedium()
     {
-        return HTML::image($this->image_url . "?size=300");
+        if (substr($this->image, 0, 10) == 'https://gr') {
+            return HTML::image($this->image_url . "&size=300", $this->resource->name);
+        } else {
+            return HTML::image($this->image_url . "?size=300", $this->resource->name);
+        }
     }
 }
