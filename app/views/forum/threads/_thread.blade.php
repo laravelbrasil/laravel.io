@@ -2,7 +2,7 @@
     <h1>{{ $thread->subject }}</h1>
 
     <span class="markdown">
-        {{{ $thread->body }}}
+        {{ $thread->body }}
     </span>
 
     <div class="user">
