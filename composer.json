@@ -2,19 +2,20 @@
     "description": "Laravel.io",
     "require": {
         "laravel/framework": "4.1.*",
-        "artdarek/oauth-4-laravel": "dev-master",
-        "juy/profiler": "dev-master",
-        "mccool/laravel-auto-presenter": "dev-master",
+        "artdarek/oauth-4-laravel": "1.0.*",
+        "juy/profiler": "dev-master#2fc6f0998eadb25994d839c0d18335214ee6f2fb",
+        "mccool/laravel-auto-presenter": "1.2.*",
         "michelf/php-markdown": "1.4.*@dev",
-        "nickcernis/html-to-markdown": "dev-master",
+        "nickcernis/html-to-markdown": "2.1.*",
         "misd/linkify": "1.1.*@dev",
-        "hashids/hashids": "0.3.*"
+        "hashids/hashids": "0.3.*",
+        "anahkiasen/rocketeer": "1.2.*"
     },
     "require-dev": {
-        "mockery/mockery": "dev-master",
-        "raveren/kint": "dev-master",
-        "codeception/codeception": "*",
-        "codeception/aspect-mock": "*"
+        "mockery/mockery": "dev-master#2a813f52fa77c4020259e5bb4d29c095fc0d3e17",
+        "raveren/kint": "dev-master#24a15aa6e666aa9492f4bb43b48a3dbf531014ac",
+        "codeception/codeception": "dev-master#ec9f5a7470bf82788087aed13ca3240d3a9d1ca8",
+        "codeception/aspect-mock": "dev-master#c4ccf7757e6ceb97ca76e9390af0aa54c5911402"
     },
     "autoload": {
         "classmap": [
